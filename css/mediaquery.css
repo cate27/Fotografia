@@ -1,0 +1,87 @@
+/* Device = Desktops */
+@media (min-width: 1281px) {
+    
+}
+
+
+/* Device = Tablets, Ipads (portrait) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  h4 {
+	 padding-top: 5%;
+  }
+  h6 {
+	  margin-bottom: 2em;
+  }
+  img.img-fluid {
+	  max-width: 20em;
+  }
+
+  
+}
+
+/* Device = Tablets, Ipads (landscape) */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  
+}
+
+/* Device = Low Resolution Tablets, Mobiles (Landscape) */
+
+@media (min-width: 481px) and (max-width: 767px) {
+  img.img-fluid {
+	  max-width: 20em;
+  }
+  .row {
+	  --bs-gutter-x: 0em;
+  }
+  .navbar-toggler {
+	  margin-top: 2em;
+  }
+   h4 {
+	 padding-top: 10em;
+  }
+  h6 {
+	  margin-bottom: 2em;
+  }
+}
+
+/* Device = Most of the Smartphones Mobiles (Portrait) */
+
+@media (min-width: 320px) and (max-width: 480px) {
+ div.d-flex.flex-wrap {
+	 width: 30%;
+	 height: 3em;
+ }
+  div.d-flex.flex-wrap.canon1 {
+	 width: 40%;
+	 height: 3em;
+ }
+  img.img-fluid {
+  width: 5em;
+  max-width: 100%;
+  display: inline-block;
+  }
+  span.fs-4 {
+	  margin-left: -0.8em;
+  }
+  .row {
+	  --bs-gutter-x: 0em;
+  }
+  .navbar-toggler-icon {
+	  display: initial;
+  }
+  div.d-flex.flex-wrap.nikon1 {
+	 width: 45%;
+	 margin-right: -15%;
+ }
+ div.d-flex.flex-wrap.nikon2 {
+	 width: 60%;
+ }
+ div.d-flex.flex-wrap.nikon3 {
+	 width: 40%;
+	 height: 3em;
+ }
+ul.nav.col-md-4.d-flex.justify-content-end {
+	padding-top: 1em;
+}
+}
